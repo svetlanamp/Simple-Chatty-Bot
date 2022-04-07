@@ -1,14 +1,15 @@
+# teaching the bot to introduce itself
 def greet(bot_name, birth_year):
     print('Hello! My name is ' + bot_name + '.')
     print('I was created in ' + birth_year + '.')
 
-
+# teaching the bot to greet the user
 def remind_name():
     print('Please, remind me your name.')
     name = input()
     print('What a great name you have, ' + name + '!')
 
-
+# teaching the bot to guess the user's age
 def guess_age():
     print('Let me guess your age.')
     print('Enter remainders of dividing your age by 3, 5 and 7.')
@@ -20,7 +21,7 @@ def guess_age():
 
     print("Your age is " + str(age) + "; that's a good time to start programming!")
 
-
+# teaching the bot to count
 def count():
     print('Now I will prove to you that I can count to any number you want.')
 
@@ -30,7 +31,7 @@ def count():
         print(curr, '!')
         curr = curr + 1
 
-
+# teaching the bot to ask multiple-choice questions
 def test():
     print("Let's test your programming knowledge.")
     # write your code here
